@@ -47,20 +47,19 @@ table {
 	border-spacing: 0;
 }
 /* custom styles */
-.box1{
+.box{
 width: 300px;
 height: 200px;
 padding: 20px;
 background-color: red;
 border: 10px dashed black;
 margin: 20px;
+font-size: 24px;
 }
-.box2{
-    box-sizing: content-box;
-    width: 300px;
-    height: 200px;
-    background-color: red;
-    border: 10px dashed black;
-    margin: 20px;
-    padding: 20px;
+.box 2{
+   box-sizing: border-box;
+}
+h3 {
+	font-size: 32px;
+	margin: 20px;
 }
