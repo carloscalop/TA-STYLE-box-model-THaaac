@@ -48,7 +48,7 @@ table {
 }
 /* Custom Styles */
 .box {
-    box-sizing: content-box;
+    box-sizing: border-box;
     width: 300px;
     height: 300px;
     font-size: xx-large;
