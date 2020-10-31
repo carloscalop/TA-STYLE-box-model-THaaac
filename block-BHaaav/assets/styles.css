@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom code */
+header{
+	background-color: #2E3141;
+	text-align: center;
+}
+h2{
+	font-size: 36px;
+	color: white;
+	padding: 10px 10px 10px 10px;
+}
+a {
+	font-size: 24px;
+	color: white;
+	padding: 0;
+	margin-left: 16x;
+	margin-right: 16px;
+}
+section{
+	background-color: #2E3141;
+	}
+h1 {
+	font-size: 44px;
+	color: white;
+	padding: 150px;
+	}
+hr {
+	margin-top: -100px;
+	margin-left: 150px;
+	width: 2000px;
+	border-style: solid;
+	color: gray
+	}
+h3 {
+	margin-left: 70px;
+	font-size: 24px;
+	color: gray;
+	padding: 80px;
+}
+.middle{
+	background-color: #4C5C96;
+	padding: 100px;
+		}
+h4{
+	padding: 100px;
+	margin-top: -100px;
+	margin-left: -30px;
+	font-size: 30px;
+	color: white;
+		}
+img {
+	width: 350px;	
+	height: 350px;	
+	border-radius: 50%;
+	margin-bottom: 100px;
+	margin-left: 30px;
+}
+p {
+	margin-left: 30px;
+	color: wheat;
+	font-size: 18px;
+	
+}
+h5{
+	color: white;
+	font-size: 22px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.third{
+	background-color: #45558D;
+	padding: 100px;
+	margin-top: -100px;
+	margin-left: -30px;
+	font-size: 30px;
+	color: white;
+	}
+.forth{
+		background-color: #3F4E85;	
+		padding: 100px;
+	margin-top: -100px;
+	margin-left: -30px;
+	font-size: 30px;
+	color: white;	
+	}
+footer {
+	padding: 60px;
+	background-color: #2D3040;		
+}
